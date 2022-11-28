@@ -2,7 +2,7 @@ version: "3.2"
 services:
   api:
     image: flask_api
-    container_name: ml_api_sprint_004
+    container_name: ml_api
     build:
       context: ./api
       target: build
